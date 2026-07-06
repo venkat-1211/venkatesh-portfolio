@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ═══ SEO Meta Tags ═══ -->
+  <title>Venkatesh Mahalingam | Senior Backend Engineer | PHP Laravel & Python Django Developer</title>
+  <meta name="description" content="Venkatesh Mahalingam is a Senior Backend Engineer with 3+ years specializing in PHP Laravel, Python Django, FastAPI, REST APIs, and cloud architecture. Available for freelance and full-time opportunities." />
+  <meta name="keywords" content="Venkatesh Mahalingam, Backend Engineer, PHP Developer, Laravel Developer, Python Developer, Django Developer, FastAPI, REST API, GraphQL, India, Software Architect" />
+  <meta name="author" content="Venkatesh Mahalingam" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://venkatesh-mahalingam.vercel.app/" />
+
+  <!-- ═══ Open Graph ═══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://venkatesh-mahalingam.vercel.app/" />
+  <meta property="og:title" content="Venkatesh Mahalingam | Senior Backend Engineer" />
+  <meta property="og:description" content="3+ Years Building scalable backend systems with PHP Laravel & Python Django. Full Stack | API Design | Cloud | DevOps." />
+  <meta property="og:image" content="https://venkatesh-mahalingam.vercel.app/assets/images/og-cover.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Venkatesh Mahalingam Portfolio" />
+
+  <!-- ═══ Twitter Card ═══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Venkatesh Mahalingam | Senior Backend Engineer" />
+  <meta name="twitter:description" content="3+ Years Building scalable backend systems with PHP Laravel & Python Django." />
+  <meta name="twitter:image" content="https://venkatesh-mahalingam.vercel.app/assets/images/og-cover.png" />
+
+  <!-- ═══ Favicon ═══ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%237c3aed'/><text y='.9em' font-size='75' x='12'>V</text></svg>" />
+
+  <!-- ═══ Fonts ═══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ═══ Icons ═══ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+  <!-- ═══ Stylesheets ═══ -->
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/glassmorphism.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- ═══ Schema.org Structured Data ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Venkatesh Mahalingam",
+    "jobTitle": "Senior Backend Engineer",
+    "description": "Senior Backend Engineer specializing in PHP Laravel and Python Django with 3+ years of experience building scalable backend systems.",
+    "url": "https://venkatesh-mahalingam.vercel.app/",
+    "sameAs": [
+      "https://github.com/venkatesh-mahalingam",
+      "https://linkedin.com/in/venkatesh-mahalingam",
+      "https://wa.me/919XXXXXXXXX"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN",
+      "addressRegion": "India"
+    },
+    "knowsAbout": [
+      "PHP", "Laravel", "Python", "Django", "FastAPI", "REST API", "GraphQL",
+      "MySQL", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Microservices"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Fortigrid ICT India Pvt Ltd"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ══════════════════════════════════════════
+       PAGE LOADER
+       ══════════════════════════════════════════ -->
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-logo">VM</div>
+    <div class="loader-spinner"></div>
+    <div class="loader-progress-track">
+      <div class="loader-progress-bar"></div>
+    </div>
+    <div class="loader-text">Initializing portfolio...</div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       CUSTOM CURSOR
+       ══════════════════════════════════════════ -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" id="cursor-follower" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════════
+       SCROLL PROGRESS BAR
+       ══════════════════════════════════════════ -->
+  <div id="scroll-progress" role="progressbar" aria-label="Reading progress"></div>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+       ══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="#hero" class="nav-logo" aria-label="Venkatesh Mahalingam Home">
+          <div class="nav-logo-icon">V</div>
+          <span class="nav-logo-text">Venkatesh<span>.dev</span></span>
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#about"    class="nav-link" data-section="about"><i class="fa-regular fa-user"></i> About</a></li>
+          <li><a href="#experience" class="nav-link" data-section="experience"><i class="fa-regular fa-clock"></i> Experience</a></li>
+          <li><a href="#skills"   class="nav-link" data-section="skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#services" class="nav-link" data-section="services"><i class="fa-solid fa-briefcase"></i> Services</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects"><i class="fa-solid fa-layer-group"></i> Projects</a></li>
+          <li><a href="#resume"   class="nav-link" data-section="resume"><i class="fa-regular fa-file"></i> Resume</a></li>
+          <li><a href="#contact"  class="nav-link" data-section="contact"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+            <i class="fa-solid fa-moon" id="theme-icon"></i>
+          </button>
+          <a href="assets/resume/venkatesh-mahalingam-cv.pdf" download class="btn btn-primary btn-sm" id="nav-cv-btn">
+            <i class="fa-solid fa-download"></i> Resume
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+    <div class="mobile-menu-links">
+      <a href="#about"       class="mobile-menu-link" onclick="closeMobileMenu()">👤 About</a>
+      <a href="#experience"  class="mobile-menu-link" onclick="closeMobileMenu()">⏱️ Experience</a>
+      <a href="#skills"      class="mobile-menu-link" onclick="closeMobileMenu()">💻 Skills</a>
+      <a href="#tech-stack"  class="mobile-menu-link" onclick="closeMobileMenu()">🛠️ Tech Stack</a>
+      <a href="#services"    class="mobile-menu-link" onclick="closeMobileMenu()">🎯 Services</a>
+      <a href="#projects"    class="mobile-menu-link" onclick="closeMobileMenu()">📦 Projects</a>
+      <a href="#statistics"  class="mobile-menu-link" onclick="closeMobileMenu()">📊 Statistics</a>
+      <a href="#resume"      class="mobile-menu-link" onclick="closeMobileMenu()">📄 Resume</a>
+      <a href="#contact"     class="mobile-menu-link" onclick="closeMobileMenu()">📬 Contact</a>
+      <a href="assets/resume/venkatesh-mahalingam-cv.pdf" download class="btn btn-primary" style="margin-top:0.75rem;">
+        <i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════ -->
+  <section id="hero" aria-label="Hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <!-- Status badge -->
+        <div class="hero-badge" role="status">
+          <div class="hero-badge-dot" style="position:relative;">⚡</div>
+          Available for Senior Backend Roles &amp; Freelance Projects
+        </div>
+
+        <!-- Title -->
+        <h1 class="hero-title">
+          Hi, I'm
+          <span class="hero-name">Venkatesh<br/>Mahalingam</span>
+        </h1>
+
+        <!-- Typing animation -->
+        <div class="hero-typing-line" aria-live="polite">
+          <span class="hero-typing-prefix">I build</span>
+          <span id="typed-text"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+
+        <!-- Description -->
+        <p class="hero-description">
+          Senior Backend Engineer with <strong style="color:#a78bfa;">3+ years</strong> of hands-on experience crafting
+          scalable, secure, and high-performance systems in both
+          <strong style="color:#a78bfa;">PHP (Laravel / CodeIgniter)</strong> and
+          <strong style="color:#60a5fa;">Python (Django / FastAPI)</strong> ecosystems.
+          Currently at <strong style="color:#22d3ee;">Fortigrid ICT India Pvt Ltd</strong>.
+        </p>
+
+        <!-- Stack line -->
+        <div class="hero-stack-line" aria-label="Technology stack">
+          <span class="hero-stack-item php">PHP 8</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item laravel">Laravel</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item python">Python</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item django">Django</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item fastapi">FastAPI</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item" style="color:#34d399;">REST API</span>
+          <span class="hero-stack-dot"></span>
+          <span class="hero-stack-item" style="color:#fbbf24;">GraphQL</span>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary btn-lg" id="hero-projects-btn">
+            <i class="fa-solid fa-layer-group"></i> View My Projects
+          </a>
+          <a href="assets/resume/venkatesh-mahalingam-cv.pdf" download class="btn btn-outline btn-lg" id="hero-cv-btn">
+            <i class="fa-solid fa-download"></i> Download CV
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="hero-social" aria-label="Social media links">
+          <a href="https://github.com/venkatesh-mahalingam" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub profile" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/venkatesh-mahalingam" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn profile" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:venkatesh.mahalingam@email.com" class="social-link" aria-label="Email me" title="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter/X" title="Twitter / X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="scroll-label">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Hero stats strip -->
+    <div class="hero-stats-strip" aria-label="Quick statistics">
+      <div class="hero-stat">
+        <span class="hero-stat-number">3+</span>
+        <span class="hero-stat-label">Years Exp.</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">10+</span>
+        <span class="hero-stat-label">Projects</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">2</span>
+        <span class="hero-stat-label">Ecosystems</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ABOUT SECTION
+       ══════════════════════════════════════════ -->
+  <section id="about" class="section" aria-label="About Me">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image side -->
+        <div class="about-image-side reveal-left">
+          <div class="about-image-wrap">
+            <img src="assets/images/profile/venkatesh-profile.png"
+                 alt="Venkatesh Mahalingam - Senior Backend Engineer"
+                 class="about-image"
+                 loading="lazy"
+                 width="280" height="280" />
+            <div class="about-badge-floating top-right">
+              <i class="fab fa-laravel"></i> Laravel Expert
+            </div>
+            <div class="about-badge-floating bottom-left">
+              <i class="fab fa-python"></i> Django Developer
+            </div>
+          </div>
+        </div>
+
+        <!-- Content side -->
+        <div class="about-content reveal-right">
+          <div class="about-label"><i class="fa-solid fa-circle-info"></i> About Me</div>
+
+          <h2 class="about-title">
+            Building Robust<br/>
+            <span class="gradient-text">Backend Systems</span>
+          </h2>
+
+          <p class="about-subtitle">Senior Backend Engineer &amp; Solution Architect</p>
+
+          <p class="about-text">
+            I'm <strong>Venkatesh Mahalingam</strong>, a passionate Senior Backend Engineer currently building
+            enterprise-grade software at <strong>Fortigrid ICT India Pvt Ltd</strong>. With 3+ years of
+            professional experience, I specialize in architecting and developing scalable, secure, and
+            high-performance backend systems across <strong>two complete ecosystems</strong>—
+            PHP (Laravel, CodeIgniter) and Python (Django, FastAPI).
+          </p>
+          <p class="about-text">
+            I bring deep expertise in RESTful API design, GraphQL, microservices architecture, database
+            optimization, cloud deployment (AWS), and modern DevOps practices. I believe in writing
+            clean, maintainable code following SOLID principles, design patterns, and clean architecture.
+          </p>
+
+          <!-- Quick stats -->
+          <div class="about-stats-grid">
+            <div class="about-stat-item">
+              <div class="number">3+</div>
+              <div class="label">Years Experience</div>
+            </div>
+            <div class="about-stat-item">
+              <div class="number">10+</div>
+              <div class="label">Projects Built</div>
+            </div>
+            <div class="about-stat-item">
+              <div class="number">14+</div>
+              <div class="label">Technologies</div>
+            </div>
+          </div>
+
+          <!-- Technology badges -->
+          <div class="about-badges">
+            <span class="tech-badge php"><i class="devicon-php-plain"></i> PHP 8</span>
+            <span class="tech-badge php"><i class="devicon-laravel-plain"></i> Laravel</span>
+            <span class="tech-badge python"><i class="devicon-python-plain"></i> Python</span>
+            <span class="tech-badge python"><i class="devicon-django-plain"></i> Django</span>
+            <span class="tech-badge python">⚡ FastAPI</span>
+            <span class="tech-badge db"><i class="devicon-mysql-plain"></i> MySQL</span>
+            <span class="tech-badge db"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+            <span class="tech-badge cloud"><i class="devicon-amazonwebservices-original"></i> AWS</span>
+            <span class="tech-badge cloud"><i class="devicon-docker-plain"></i> Docker</span>
+          </div>
+
+          <!-- CTA -->
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fa-regular fa-envelope"></i> Hire Me
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              <i class="fa-solid fa-layer-group"></i> See My Work
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       EXPERIENCE TIMELINE
+       ══════════════════════════════════════════ -->
+  <section id="experience" class="section section-alt" aria-label="Experience Timeline">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Career</span>
+        <h2 class="section-title">Experience <span class="gradient-text">Timeline</span></h2>
+        <p class="section-subtitle">My professional journey building enterprise software solutions</p>
+      </div>
+
+      <div class="timeline" role="list">
+
+        <!-- Current Role -->
+        <div class="timeline-item reveal" role="listitem">
+          <div class="timeline-dot current" title="Current Position">
+            <i class="fa-solid fa-star" style="font-size:0.6rem;"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period">
+              <i class="fa-regular fa-calendar"></i> Jan 2023 — Present
+              <span style="margin-left:0.5rem; background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.3); border-radius:6px; padding:0.1rem 0.5rem; color:#34d399; font-size:0.65rem;">CURRENT</span>
+            </div>
+            <div class="timeline-company">Fortigrid ICT India Pvt Ltd</div>
+            <div class="timeline-role">Senior Backend Engineer</div>
+            <p class="timeline-desc">
+              Architecting and developing enterprise backend systems using PHP Laravel and
+              Python Django/FastAPI. Leading API design, database optimization, and cloud
+              infrastructure on AWS. Implementing microservices, event-driven patterns, and DevOps pipelines.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Laravel</span>
+              <span class="timeline-tag">Django</span>
+              <span class="timeline-tag">FastAPI</span>
+              <span class="timeline-tag">REST API</span>
+              <span class="timeline-tag">AWS</span>
+              <span class="timeline-tag">Docker</span>
+              <span class="timeline-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Previous Role 1 -->
+        <div class="timeline-item reveal" role="listitem">
+          <div class="timeline-dot" title="Previous Position">
+            <i class="fa-solid fa-code" style="font-size:0.55rem;"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period"><i class="fa-regular fa-calendar"></i> Jun 2022 — Dec 2022</div>
+            <div class="timeline-company">Previous Company</div>
+            <div class="timeline-role">Backend Developer (PHP)</div>
+            <p class="timeline-desc">
+              Developed and maintained RESTful APIs using PHP Laravel and CodeIgniter. Built CRUD-heavy
+              applications, integrated payment gateways, implemented JWT authentication, and managed
+              MySQL databases. Collaborated with frontend teams on API contract design.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">PHP</span>
+              <span class="timeline-tag">Laravel</span>
+              <span class="timeline-tag">CodeIgniter</span>
+              <span class="timeline-tag">JWT</span>
+              <span class="timeline-tag">MySQL</span>
+              <span class="timeline-tag">REST API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Previous Role 2 -->
+        <div class="timeline-item reveal" role="listitem">
+          <div class="timeline-dot" title="Junior Developer">
+            <i class="fa-solid fa-seedling" style="font-size:0.55rem;"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-period"><i class="fa-regular fa-calendar"></i> Jan 2022 — May 2022</div>
+            <div class="timeline-company">Freelance / Agency Projects</div>
+            <div class="timeline-role">Junior Full Stack Developer</div>
+            <p class="timeline-desc">
+              Started professional journey building web applications for clients. Worked with PHP, HTML5,
+              CSS3, Bootstrap, jQuery, and basic Python scripting. Delivered responsive, functional
+              websites and simple backend APIs.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">PHP</span>
+              <span class="timeline-tag">Python</span>
+              <span class="timeline-tag">HTML/CSS</span>
+              <span class="timeline-tag">Bootstrap</span>
+              <span class="timeline-tag">jQuery</span>
+              <span class="timeline-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TECHNICAL SKILLS
+       ══════════════════════════════════════════ -->
+  <section id="skills" class="section" aria-label="Technical Skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Dual-ecosystem expertise across PHP and Python backend development</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="skill-tabs" role="tablist" aria-label="Skill categories">
+        <button class="skill-tab-btn active" role="tab" aria-selected="true"  aria-controls="panel-php"    id="tab-php"    onclick="switchSkillTab('php')">
+          <i class="devicon-php-plain"></i> PHP Ecosystem
+        </button>
+        <button class="skill-tab-btn" role="tab" aria-selected="false" aria-controls="panel-python" id="tab-python" onclick="switchSkillTab('python')">
+          <i class="devicon-python-plain"></i> Python Ecosystem
+        </button>
+        <button class="skill-tab-btn" role="tab" aria-selected="false" aria-controls="panel-general" id="tab-general" onclick="switchSkillTab('general')">
+          <i class="fa-solid fa-server"></i> Backend &amp; DevOps
+        </button>
+        <button class="skill-tab-btn" role="tab" aria-selected="false" aria-controls="panel-frontend" id="tab-frontend" onclick="switchSkillTab('frontend')">
+          <i class="fa-solid fa-palette"></i> Frontend
+        </button>
+      </div>
+
+      <!-- PHP Ecosystem -->
+      <div class="skill-panel active" id="panel-php" role="tabpanel" aria-labelledby="tab-php">
+        <div class="skills-grid stagger-children">
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-php-plain"></i> PHP Frameworks</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-laravel-plain" style="color:#f9a8d4;"></i> Laravel 10/11</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔥 CodeIgniter 4</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">⚙️ Core PHP 8</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🧪 PHPUnit / Pest</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="82"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-key"></i> PHP — Auth &amp; Patterns</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔐 JWT / OAuth2 / Passport</span>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="92"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">📐 Repository / Service Pattern</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🏗️ SOLID / Clean Architecture</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔒 RBAC / Permission System</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="85"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-database"></i> PHP — Database</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-mysql-plain" style="color:#00758F;"></i> MySQL / Eloquent ORM</span>
+                <span class="skill-pct">93%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="93"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-redis-plain" style="color:#D82C20;"></i> Redis / Caching</span>
+                <span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="87"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">📬 Queue / Events (Laravel)</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔗 GraphQL (Lighthouse)</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="80"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-plug"></i> PHP — API Design</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🌐 REST API Design</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">📄 API Documentation (Swagger)</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🏷️ DTO / Action Classes</span>
+                <span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="87"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🎯 MVC / MVT Pattern</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar" data-skill="95"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Python Ecosystem -->
+      <div class="skill-panel" id="panel-python" role="tabpanel" aria-labelledby="tab-python">
+        <div class="skills-grid stagger-children">
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-python-plain" style="color:#3776AB;"></i> Python Frameworks</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-django-plain" style="color:#092E20;"></i> Django 4/5</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🚀 Django REST Framework</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">⚡ FastAPI</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🧪 Pytest</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="82"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-database"></i> Python — Database &amp; ORM</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-postgresql-plain" style="color:#336791;"></i> PostgreSQL / SQLAlchemy</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🍃 MongoDB / Motor</span>
+                <span class="skill-pct">78%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name"><i class="devicon-redis-plain" style="color:#D82C20;"></i> Redis / Celery</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔗 GraphQL (Graphene)</span>
+                <span class="skill-pct">78%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="78"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-key"></i> Python — Auth &amp; Security</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔐 JWT / OAuth2 (DRF)</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔒 Permission System / RBAC</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🛡️ API Security Best Practices</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">⚙️ Pydantic / Data Validation</span>
+                <span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="87"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-cog"></i> Python — Architecture</div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🏗️ MVT / Clean Architecture</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">🔗 Microservices</span>
+                <span class="skill-pct">83%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="83"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">📨 Event-Driven (Celery/RabbitMQ)</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span class="skill-name">📄 OpenAPI / Swagger Docs</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-bar cyan" data-skill="88"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend & DevOps -->
+      <div class="skill-panel" id="panel-general" role="tabpanel" aria-labelledby="tab-general">
+        <div class="skills-grid stagger-children">
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-amazonwebservices-original"></i> Cloud — AWS</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">☁️ AWS EC2 / ECS</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="82"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🪣 AWS S3</span><span class="skill-pct">87%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="87"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🗄️ AWS RDS</span><span class="skill-pct">83%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="83"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🐧 Linux Server Admin</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="85"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-docker-plain"></i> DevOps</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-docker-plain" style="color:#0db7ed;"></i> Docker / Compose</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="88"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">⎈ Kubernetes (Basics)</span><span class="skill-pct">72%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="72"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🔁 GitHub Actions / Jenkins</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="82"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">📊 Prometheus / Grafana</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="75"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-database"></i> Databases</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-mysql-plain"></i> MySQL / MariaDB</span><span class="skill-pct">93%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="93"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-postgresql-plain"></i> PostgreSQL</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="88"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🍃 MongoDB</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="78"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-redis-plain"></i> Redis</span><span class="skill-pct">87%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="87"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-git-plain"></i> Version Control &amp; Tools</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-git-plain" style="color:#F05032;"></i> Git / GitHub</span><span class="skill-pct">95%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="95"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🏗️ Terraform</span><span class="skill-pct">70%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="70"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🔗 REST / GraphQL API</span><span class="skill-pct">95%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="95"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">📬 Message Queue (RabbitMQ)</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-bar green" data-skill="80"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div class="skill-panel" id="panel-frontend" role="tabpanel" aria-labelledby="tab-frontend">
+        <div class="skills-grid stagger-children">
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-html5-plain"></i> Core Frontend</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-html5-plain" style="color:#E34F26;"></i> HTML5 / Semantic</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-bar" data-skill="90"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-css3-plain" style="color:#1572B6;"></i> CSS3 / Flexbox / Grid</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-bar" data-skill="85"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-javascript-plain" style="color:#F7DF1E;"></i> JavaScript (ES2022+)</span><span class="skill-pct">83%</span></div><div class="skill-track"><div class="skill-bar" data-skill="83"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-jquery-plain" style="color:#0769AD;"></i> jQuery / AJAX</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-bar" data-skill="88"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-bootstrap-plain"></i> Frameworks &amp; Libraries</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-bootstrap-plain" style="color:#7952B3;"></i> Bootstrap 5</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-bar" data-skill="90"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">💨 TailwindCSS</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-bar" data-skill="80"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-react-original" style="color:#61DBFB;"></i> React (Basics)</span><span class="skill-pct">72%</span></div><div class="skill-track"><div class="skill-bar" data-skill="72"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">▲ Next.js (Basics)</span><span class="skill-pct">65%</span></div><div class="skill-track"><div class="skill-bar" data-skill="65"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="devicon-typescript-plain"></i> TypeScript &amp; Tools</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name"><i class="devicon-typescript-plain" style="color:#3178C6;"></i> TypeScript</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-bar" data-skill="75"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">📦 Webpack / Vite</span><span class="skill-pct">72%</span></div><div class="skill-track"><div class="skill-bar" data-skill="72"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🎨 CSS Animations / GSAP</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-bar" data-skill="78"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">📱 Responsive Design</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-bar" data-skill="90"></div></div></div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="fa-solid fa-database"></i> Template Engines</div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🔖 Blade (Laravel)</span><span class="skill-pct">93%</span></div><div class="skill-track"><div class="skill-bar" data-skill="93"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🌿 Jinja2 (Django)</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-bar" data-skill="88"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">📋 Twig</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-bar" data-skill="75"></div></div></div>
+            <div class="skill-item"><div class="skill-label"><span class="skill-name">🗂️ Inertia.js</span><span class="skill-pct">72%</span></div><div class="skill-track"><div class="skill-bar" data-skill="72"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TECHNOLOGY STACK (Floating Logos)
+       ══════════════════════════════════════════ -->
+  <section id="tech-stack" class="section section-alt" aria-label="Technology Stack">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Tools &amp; Technologies</span>
+        <h2 class="section-title">My <span class="gradient-text">Tech Stack</span></h2>
+        <p class="section-subtitle">The technologies I use to build production-grade systems</p>
+      </div>
+
+      <!-- Backend -->
+      <div class="tech-category-title">⚙️ Backend &amp; Frameworks</div>
+      <div class="tech-logos-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px,1fr));">
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" loading="lazy" width="36" height="36" /><span>PHP 8</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" loading="lazy" width="36" height="36" /><span>Laravel</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" alt="CodeIgniter" loading="lazy" width="36" height="36" /><span>CodeIgniter</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy" width="36" height="36" /><span>Python</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" loading="lazy" width="36" height="36" /><span>Django</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" loading="lazy" width="36" height="36" /><span>FastAPI</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="GraphQL" loading="lazy" width="36" height="36" /><span>GraphQL</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy" width="36" height="36" /><span>JavaScript</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" loading="lazy" width="36" height="36" /><span>TypeScript</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy" width="36" height="36" /><span>React</span></div>
+      </div>
+
+      <!-- Database -->
+      <div class="tech-category-title" style="margin-top:2.5rem;">🗄️ Databases &amp; Caching</div>
+      <div class="tech-logos-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px,1fr));">
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" loading="lazy" width="36" height="36" /><span>MySQL</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" loading="lazy" width="36" height="36" /><span>PostgreSQL</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" loading="lazy" width="36" height="36" /><span>MongoDB</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" loading="lazy" width="36" height="36" /><span>Redis</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" loading="lazy" width="36" height="36" /><span>SQLite</span></div>
+      </div>
+
+      <!-- Cloud & DevOps -->
+      <div class="tech-category-title" style="margin-top:2.5rem;">☁️ Cloud &amp; DevOps</div>
+      <div class="tech-logos-grid" style="grid-template-columns: repeat(auto-fill, minmax(100px,1fr));">
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" loading="lazy" width="36" height="36" /><span>AWS</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" loading="lazy" width="36" height="36" /><span>Docker</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" loading="lazy" width="36" height="36" /><span>Kubernetes</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" loading="lazy" width="36" height="36" /><span>Terraform</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" loading="lazy" width="36" height="36" /><span>Linux</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" loading="lazy" width="36" height="36" style="filter:invert(1);" /><span>GitHub</span></div>
+        <div class="tech-logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-line.svg" alt="Jenkins" loading="lazy" width="36" height="36" /><span>Jenkins</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SERVICES SECTION
+       ══════════════════════════════════════════ -->
+  <section id="services" class="section" aria-label="Services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Offer</span>
+        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">Comprehensive backend engineering and consulting services</p>
+      </div>
+
+      <div class="services-grid stagger-children">
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(249,168,212,0.15),rgba(124,58,237,0.15)); border-color:rgba(249,168,212,0.2);">
+            <i class="devicon-laravel-plain" style="color:#f9a8d4;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Laravel Development</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Enterprise-grade Laravel apps with clean architecture, REST APIs, RBAC, queue systems &amp; Eloquent ORM optimization.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon">
+            <i class="devicon-php-plain" style="color:#a78bfa;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">PHP Development</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Core PHP 8, CodeIgniter, OOP, design patterns, SOLID principles, and performant legacy PHP refactoring.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(52,211,153,0.15),rgba(37,99,235,0.15)); border-color:rgba(52,211,153,0.2);">
+            <i class="devicon-django-plain" style="color:#34d399;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Django Development</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Full-stack Django apps, Django REST Framework APIs, custom admin panels, Celery task queues, and signal-based event systems.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(16,185,129,0.15)); border-color:rgba(6,182,212,0.2);">
+            <i class="devicon-fastapi-original" style="color:#22d3ee;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">FastAPI Development</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">High-performance async APIs with FastAPI, Pydantic validation, OpenAPI docs, JWT auth, and background tasks.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(245,158,11,0.15),rgba(239,68,68,0.15)); border-color:rgba(245,158,11,0.2);">
+            <i class="fa-solid fa-plug" style="color:#fbbf24;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">REST API Development</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Secure, versioned, well-documented REST APIs. JWT auth, rate limiting, caching, pagination, and OpenAPI/Swagger docs.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(236,72,153,0.15),rgba(124,58,237,0.15)); border-color:rgba(236,72,153,0.2);">
+            <i class="devicon-graphql-plain" style="color:#e879f9;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">GraphQL API</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">GraphQL schema design with Lighthouse (PHP) and Graphene (Python). Mutations, queries, subscriptions, and N+1 optimization.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(16,185,129,0.15),rgba(6,182,212,0.15)); border-color:rgba(16,185,129,0.2);">
+            <i class="fa-solid fa-database" style="color:#34d399;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Database Design</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">ER diagrams, schema design, MySQL/PostgreSQL optimization, indexing strategies, query performance tuning, and migrations.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(37,99,235,0.15),rgba(124,58,237,0.15)); border-color:rgba(37,99,235,0.2);">
+            <i class="fa-solid fa-sitemap" style="color:#60a5fa;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Backend Architecture</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Scalable system design, microservices architecture, event-driven design, CQRS, and clean architecture patterns.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15)); border-color:rgba(124,58,237,0.2);">
+            <i class="fa-solid fa-cubes" style="color:#a78bfa;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Microservices</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Design, build, and deploy microservices with Docker, service discovery, API gateways, and inter-service communication.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(245,158,11,0.15),rgba(16,185,129,0.15)); border-color:rgba(245,158,11,0.2);">
+            <i class="devicon-amazonwebservices-original" style="color:#fbbf24;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Cloud Deployment</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Deploy to AWS EC2, ECS, S3, RDS. Docker containerization, CI/CD pipelines with GitHub Actions/Jenkins, and Nginx/Apache config.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(16,185,129,0.15),rgba(37,99,235,0.15)); border-color:rgba(16,185,129,0.2);">
+            <i class="fa-solid fa-bolt" style="color:#34d399;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Performance Optimization</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Query optimization, Redis caching strategies, N+1 elimination, database indexing, API response time reduction.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(239,68,68,0.15),rgba(124,58,237,0.15)); border-color:rgba(239,68,68,0.2);">
+            <i class="fa-solid fa-code-branch" style="color:#f87171;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Code Refactoring</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Legacy code modernization, technical debt reduction, design pattern implementation, and codebase architecture improvement.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(245,158,11,0.15)); border-color:rgba(124,58,237,0.2);">
+            <i class="fa-solid fa-comments" style="color:#a78bfa;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">Software Consulting</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">Architecture reviews, technology stack selection, code audits, team mentoring, and technical roadmap planning.</p>
+        </div>
+
+        <div class="service-card reveal-scale">
+          <div class="service-icon" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(37,99,235,0.15)); border-color:rgba(6,182,212,0.2);">
+            <i class="fa-solid fa-shield-halved" style="color:#22d3ee;"></i>
+          </div>
+          <h3 style="font-size:1rem; font-weight:700; margin-bottom:0.5rem;">API Security</h3>
+          <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">OAuth2, JWT, RBAC permissions, OWASP compliance, rate limiting, SQL injection prevention, and security auditing.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       ARCHITECTURE SECTION
+       ══════════════════════════════════════════ -->
+  <section id="architecture" class="section section-alt" aria-label="System Architecture">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">System Design</span>
+        <h2 class="section-title">Architecture <span class="gradient-text">Expertise</span></h2>
+        <p class="section-subtitle">Designing scalable, resilient, and maintainable systems</p>
+      </div>
+
+      <div class="arch-diagram reveal">
+        <div class="arch-layer">
+          <div class="arch-layer-title">CLIENT LAYER</div>
+          <div class="arch-nodes">
+            <span class="arch-node client">Web Browser</span>
+            <span class="arch-node client">Mobile App</span>
+            <span class="arch-node client">Third-party APIs</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <div class="arch-layer-title">API GATEWAY / LOAD BALANCER</div>
+          <div class="arch-nodes">
+            <span class="arch-node api">Nginx / AWS ALB</span>
+            <span class="arch-node api">Rate Limiting</span>
+            <span class="arch-node api">SSL Termination</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <div class="arch-layer-title">APPLICATION SERVICES</div>
+          <div class="arch-nodes">
+            <span class="arch-node service">Laravel API Service</span>
+            <span class="arch-node service">Django REST Service</span>
+            <span class="arch-node service">FastAPI Microservice</span>
+            <span class="arch-node service">Auth Service (JWT/OAuth2)</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <div class="arch-layer-title">MESSAGE QUEUE / EVENT BUS</div>
+          <div class="arch-nodes">
+            <span class="arch-node queue">RabbitMQ / SQS</span>
+            <span class="arch-node queue">Celery Workers</span>
+            <span class="arch-node queue">Laravel Queues</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <div class="arch-layer-title">DATA LAYER</div>
+          <div class="arch-nodes">
+            <span class="arch-node db">MySQL / PostgreSQL</span>
+            <span class="arch-node db">MongoDB</span>
+            <span class="arch-node cache">Redis Cache</span>
+            <span class="arch-node db">AWS S3 (Files)</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <div class="arch-layer-title">MONITORING &amp; OBSERVABILITY</div>
+          <div class="arch-nodes">
+            <span class="arch-node client">Prometheus</span>
+            <span class="arch-node client">Grafana</span>
+            <span class="arch-node client">Sentry (Error Tracking)</span>
+            <span class="arch-node client">AWS CloudWatch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PROJECTS SECTION
+       ══════════════════════════════════════════ -->
+  <section id="projects" class="section" aria-label="Projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">A selection of production applications I've architected and built</p>
+      </div>
+
+      <!-- Filter -->
+      <div class="project-filter" role="group" aria-label="Project filter">
+        <button class="filter-btn active" onclick="filterProjects('all')" id="filter-all">All Projects</button>
+        <button class="filter-btn" onclick="filterProjects('php')"  id="filter-php">PHP / Laravel</button>
+        <button class="filter-btn" onclick="filterProjects('python')" id="filter-python">Python / Django</button>
+        <button class="filter-btn" onclick="filterProjects('fullstack')" id="filter-fullstack">Full Stack</button>
+      </div>
+
+      <div class="projects-grid stagger-children" id="projects-grid">
+
+        <!-- Project 1: LMS -->
+        <article class="project-card reveal-scale" data-type="php" onclick="openProject('lms')" tabindex="0" role="button" aria-label="Learning Management System project">
+          <div class="project-card-img-wrap">
+            <img src="assets/images/projects/lms-cover.png" alt="Learning Management System" loading="lazy" width="400" height="200" />
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-php">PHP</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Learning Management System</h3>
+            <p class="project-card-desc">Feature-rich LMS with course management, student enrollment, video lessons, quizzes, certificates, and payment integration.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge php">PHP 8</span>
+              <span class="tech-badge db">MySQL</span>
+              <span class="tech-badge">JWT</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('lms'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()" aria-label="GitHub repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Property Management -->
+        <article class="project-card reveal-scale" data-type="fullstack" onclick="openProject('property')" tabindex="0" role="button" aria-label="Property Management System project">
+          <div class="project-card-img-wrap">
+            <img src="assets/images/projects/property-cover.png" alt="Property Management System" loading="lazy" width="400" height="200" />
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-fullstack">Full Stack</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Property Management System</h3>
+            <p class="project-card-desc">Comprehensive property management platform with tenant portal, maintenance tracking, lease management, and financial reporting.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge python">Django</span>
+              <span class="tech-badge db">PostgreSQL</span>
+              <span class="tech-badge cloud">AWS S3</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('property'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Real Estate CRM -->
+        <article class="project-card reveal-scale" data-type="python" onclick="openProject('realestate')" tabindex="0" role="button" aria-label="Real Estate CRM project">
+          <div class="project-card-img-wrap">
+            <img src="assets/images/projects/realestate-cover.png" alt="Real Estate CRM" loading="lazy" width="400" height="200" />
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-python">Python</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Real Estate CRM</h3>
+            <p class="project-card-desc">Django-powered CRM for real estate agencies with lead management, property listings, client tracking, and analytics dashboard.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge python">Django</span>
+              <span class="tech-badge python">DRF</span>
+              <span class="tech-badge db">PostgreSQL</span>
+              <span class="tech-badge db">Redis</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('realestate'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Employee Management -->
+        <article class="project-card reveal-scale" data-type="php" onclick="openProject('employee')" tabindex="0" role="button" aria-label="Employee Management System project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#0d1117,#1a1a2e); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-users" style="font-size:4rem;color:rgba(124,58,237,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-php">PHP</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Employee Management System</h3>
+            <p class="project-card-desc">HR platform with employee profiles, attendance tracking, payroll, leave management, performance reviews, and role-based access control.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge php">PHP 8</span>
+              <span class="tech-badge db">MySQL</span>
+              <span class="tech-badge">RBAC</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('employee'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Research Publication -->
+        <article class="project-card reveal-scale" data-type="python" onclick="openProject('research')" tabindex="0" role="button" aria-label="Research Publication System project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#0a0a14,#0d1b2a); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-flask" style="font-size:4rem;color:rgba(37,99,235,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-python">Python</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Research Publication System</h3>
+            <p class="project-card-desc">Django-based academic platform for submitting, reviewing, and publishing research papers with peer review workflow and DOI integration.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge python">Django</span>
+              <span class="tech-badge python">FastAPI</span>
+              <span class="tech-badge db">PostgreSQL</span>
+              <span class="tech-badge cloud">AWS</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('research'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Secure File Repository -->
+        <article class="project-card reveal-scale" data-type="python" onclick="openProject('filerepo')" tabindex="0" role="button" aria-label="Secure File Repository project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#050507,#0a1120); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-shield-halved" style="font-size:4rem;color:rgba(6,182,212,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-python">Python</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Secure File Repository</h3>
+            <p class="project-card-desc">FastAPI-powered encrypted file storage system with role-based access, audit logs, versioning, and AWS S3 integration.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge python">FastAPI</span>
+              <span class="tech-badge db">MongoDB</span>
+              <span class="tech-badge cloud">AWS S3</span>
+              <span class="tech-badge">AES-256</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('filerepo'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 7: Journal Management -->
+        <article class="project-card reveal-scale" data-type="php" onclick="openProject('journal')" tabindex="0" role="button" aria-label="Journal Management System project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#0d0817,#150d1a); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-book-open" style="font-size:4rem;color:rgba(236,72,153,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-php">PHP</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Journal Management System</h3>
+            <p class="project-card-desc">Academic journal platform with submission workflow, reviewer assignments, editorial dashboard, and open-access publishing.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge php">PHP 8</span>
+              <span class="tech-badge db">MySQL</span>
+              <span class="tech-badge">Filament</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('journal'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8: Invoice Management -->
+        <article class="project-card reveal-scale" data-type="php" onclick="openProject('invoice')" tabindex="0" role="button" aria-label="Invoice Management System project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#08100a,#0d1c10); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-file-invoice-dollar" style="font-size:4rem;color:rgba(16,185,129,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-php">PHP</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Invoice Management System</h3>
+            <p class="project-card-desc">B2B invoice platform with auto-generation, payment gateway integration, tax calculation, multi-currency support, and PDF export.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge db">MySQL</span>
+              <span class="tech-badge">Stripe</span>
+              <span class="tech-badge">PDF</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('invoice'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 9: IBUYKENYA Ecommerce -->
+        <article class="project-card reveal-scale" data-type="fullstack" onclick="openProject('ecommerce')" tabindex="0" role="button" aria-label="IBUYKENYA Ecommerce Platform project">
+          <div class="project-card-img-wrap">
+            <img src="assets/images/projects/ecommerce-cover.png" alt="IBUYKENYA Ecommerce Platform" loading="lazy" width="400" height="200" />
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-fullstack">Full Stack</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">IBUYKENYA Ecommerce Platform</h3>
+            <p class="project-card-desc">Multi-vendor ecommerce platform with product catalog, cart, M-Pesa payment integration, seller dashboard, and inventory management.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge php">Laravel</span>
+              <span class="tech-badge python">FastAPI</span>
+              <span class="tech-badge db">MySQL</span>
+              <span class="tech-badge db">Redis</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('ecommerce'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 10: Property Booking -->
+        <article class="project-card reveal-scale" data-type="python" onclick="openProject('booking')" tabindex="0" role="button" aria-label="Property Booking Platform project">
+          <div class="project-card-img-wrap" style="background:linear-gradient(135deg,#080d15,#0a1525); display:flex;align-items:center;justify-content:center;">
+            <i class="fa-solid fa-calendar-check" style="font-size:4rem;color:rgba(245,158,11,0.4);"></i>
+            <div class="project-card-overlay"></div>
+            <span class="project-card-type type-python">Python</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Property Booking Platform</h3>
+            <p class="project-card-desc">Airbnb-style property booking system with availability calendar, instant booking, reviews, messaging, and Stripe payment integration.</p>
+            <div class="project-card-tech">
+              <span class="tech-badge python">Django</span>
+              <span class="tech-badge python">DRF</span>
+              <span class="tech-badge db">PostgreSQL</span>
+              <span class="tech-badge">WebSocket</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-primary btn-sm" onclick="openProject('booking'); event.stopPropagation()"><i class="fa-solid fa-eye"></i> Case Study</button>
+              <a href="#" class="btn btn-outline btn-sm" onclick="event.stopPropagation()"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PROJECT MODAL
+       ══════════════════════════════════════════ -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-glass">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Project Name</h2>
+        <button class="modal-close" onclick="closeProject()" aria-label="Close project details">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Dynamic content injected by JS -->
+      </div>
+      <div class="modal-actions" id="modal-actions">
+        <a href="#" class="btn btn-primary" id="modal-demo-btn" target="_blank" rel="noopener">
+          <i class="fa-solid fa-external-link"></i> Live Demo
+        </a>
+        <a href="#" class="btn btn-outline" id="modal-github-btn" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+        <button onclick="closeProject()" class="btn btn-outline">
+          <i class="fa-solid fa-arrow-left"></i> Back
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       DEVELOPMENT PROCESS
+       ══════════════════════════════════════════ -->
+  <section id="process" class="section section-alt" aria-label="Development Process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How I Work</span>
+        <h2 class="section-title">Development <span class="gradient-text">Process</span></h2>
+        <p class="section-subtitle">A systematic approach to building robust backend systems</p>
+      </div>
+      <div class="process-grid stagger-children">
+        <div class="process-step reveal-scale">
+          <div class="process-number">01</div>
+          <div class="process-title">Discovery &amp; Planning</div>
+          <p class="process-desc">Requirements analysis, system design, architecture planning, database schema design, and API contract definition.</p>
+        </div>
+        <div class="process-step reveal-scale">
+          <div class="process-number">02</div>
+          <div class="process-title">Architecture &amp; Setup</div>
+          <p class="process-desc">Project scaffolding with clean architecture, Docker environment, CI/CD pipeline setup, and coding standards configuration.</p>
+        </div>
+        <div class="process-step reveal-scale">
+          <div class="process-number">03</div>
+          <div class="process-title">Development &amp; Testing</div>
+          <p class="process-desc">Feature development following TDD/BDD, unit &amp; integration testing (PHPUnit/Pytest), code review, and documentation.</p>
+        </div>
+        <div class="process-step reveal-scale">
+          <div class="process-number">04</div>
+          <div class="process-title">Deploy &amp; Monitor</div>
+          <p class="process-desc">Zero-downtime deployment to AWS/cloud, Prometheus/Grafana monitoring, performance optimization, and ongoing maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       STATISTICS SECTION
+       ══════════════════════════════════════════ -->
+  <section id="statistics" class="section" aria-label="Statistics">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">By the Numbers</span>
+        <h2 class="section-title">My <span class="gradient-text">Statistics</span></h2>
+      </div>
+      <div class="stats-grid stagger-children">
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="3" data-suffix="+">0</div>
+          <div class="stat-label">Years of Experience</div>
+          <div class="stat-desc">Professional backend development</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="10" data-suffix="+">0</div>
+          <div class="stat-label">Projects Delivered</div>
+          <div class="stat-desc">Production-grade applications</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="2" data-suffix="">0</div>
+          <div class="stat-label">Ecosystems Mastered</div>
+          <div class="stat-desc">PHP Laravel &amp; Python Django</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="14" data-suffix="+">0</div>
+          <div class="stat-label">Technologies Used</div>
+          <div class="stat-desc">Across the full stack</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="50" data-suffix="+">0</div>
+          <div class="stat-label">APIs Built</div>
+          <div class="stat-desc">REST &amp; GraphQL endpoints</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="100" data-suffix="%">0</div>
+          <div class="stat-label">Client Satisfaction</div>
+          <div class="stat-desc">On-time delivery track record</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="99" data-suffix="%">0</div>
+          <div class="stat-label">Uptime Maintained</div>
+          <div class="stat-desc">Across production systems</div>
+        </div>
+        <div class="stat-card reveal-scale">
+          <div class="stat-number" data-count="5" data-suffix="x">0</div>
+          <div class="stat-label">Performance Gains</div>
+          <div class="stat-desc">Via query &amp; cache optimization</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CERTIFICATES & ACHIEVEMENTS
+       ══════════════════════════════════════════ -->
+  <section id="certificates" class="section section-alt" aria-label="Certificates and Achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Credentials</span>
+        <h2 class="section-title">Certificates &amp; <span class="gradient-text">Achievements</span></h2>
+        <p class="section-subtitle">Professional certifications and recognition</p>
+      </div>
+
+      <div class="certs-grid stagger-children">
+        <div class="cert-card reveal">
+          <div class="cert-icon">🏆</div>
+          <div>
+            <div class="cert-title">AWS Certified Developer - Associate</div>
+            <div class="cert-issuer">Amazon Web Services</div>
+            <div class="cert-date">2024</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🎓</div>
+          <div>
+            <div class="cert-title">Laravel Certified Developer</div>
+            <div class="cert-issuer">Laravel Framework</div>
+            <div class="cert-date">2023</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🐍</div>
+          <div>
+            <div class="cert-title">Python Professional Certificate</div>
+            <div class="cert-issuer">Coursera / Google</div>
+            <div class="cert-date">2023</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🐳</div>
+          <div>
+            <div class="cert-title">Docker Certified Associate</div>
+            <div class="cert-issuer">Docker Inc.</div>
+            <div class="cert-date">2024</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">⭐</div>
+          <div>
+            <div class="cert-title">Best Backend Engineer Award</div>
+            <div class="cert-issuer">Fortigrid ICT India Pvt Ltd</div>
+            <div class="cert-date">2024</div>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🔒</div>
+          <div>
+            <div class="cert-title">API Security Professional</div>
+            <div class="cert-issuer">OWASP Foundation</div>
+            <div class="cert-date">2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       OPEN SOURCE / GITHUB
+       ══════════════════════════════════════════ -->
+  <section id="open-source" class="section" aria-label="Open Source and GitHub Activity">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Open Source</span>
+        <h2 class="section-title">GitHub <span class="gradient-text">Activity</span></h2>
+        <p class="section-subtitle">Contributing to the community through open-source projects</p>
+      </div>
+
+      <!-- GitHub Stats Cards -->
+      <div class="github-stats-grid">
+        <img src="https://github-readme-stats.vercel.app/api?username=venkatesh-mahalingam&show_icons=true&theme=transparent&title_color=a78bfa&text_color=94a3b8&icon_color=7c3aed&bg_color=00000000&border_color=ffffff10&count_private=true"
+             alt="Venkatesh GitHub stats" loading="lazy" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=venkatesh-mahalingam&theme=transparent&background=00000000&border=ffffff10&stroke=7c3aed&ring=a78bfa&fire=ec4899&currStreakLabel=a78bfa&sideLabels=94a3b8&dates=64748b"
+             alt="Venkatesh GitHub streak" loading="lazy" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkatesh-mahalingam&layout=compact&theme=transparent&title_color=a78bfa&text_color=94a3b8&bg_color=00000000&border_color=ffffff10&langs_count=6"
+             alt="Venkatesh top languages" loading="lazy" />
+      </div>
+
+      <!-- Open Source contributions -->
+      <div class="opensource-grid stagger-children" style="margin-top:2rem;">
+        <div class="os-card reveal">
+          <div class="os-card-header">
+            <span class="os-card-icon">📦</span>
+            <span class="os-card-title">laravel-api-starter</span>
+          </div>
+          <p class="os-card-desc">Production-ready Laravel REST API starter kit with JWT auth, RBAC, Repository pattern, and OpenAPI docs.</p>
+          <div class="os-card-meta">
+            <span>⭐ 247</span>
+            <span>🍴 89</span>
+            <span style="color:#a78bfa;">PHP</span>
+          </div>
+        </div>
+        <div class="os-card reveal">
+          <div class="os-card-header">
+            <span class="os-card-icon">🐍</span>
+            <span class="os-card-title">django-fastapi-boilerplate</span>
+          </div>
+          <p class="os-card-desc">Dual-framework Python backend starter with Django REST Framework + FastAPI microservice template and Docker Compose.</p>
+          <div class="os-card-meta">
+            <span>⭐ 183</span>
+            <span>🍴 61</span>
+            <span style="color:#60a5fa;">Python</span>
+          </div>
+        </div>
+        <div class="os-card reveal">
+          <div class="os-card-header">
+            <span class="os-card-icon">🔐</span>
+            <span class="os-card-title">php-rbac-system</span>
+          </div>
+          <p class="os-card-desc">Lightweight, framework-agnostic PHP RBAC permission system with role inheritance and attribute-based access control.</p>
+          <div class="os-card-meta">
+            <span>⭐ 124</span>
+            <span>🍴 43</span>
+            <span style="color:#a78bfa;">PHP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       RESUME SECTION
+       ══════════════════════════════════════════ -->
+  <section id="resume" class="section section-alt" aria-label="Resume">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">My CV</span>
+        <h2 class="section-title">Download <span class="gradient-text">Resume</span></h2>
+        <p class="section-subtitle">Two specialized resumes tailored to each ecosystem — choose the one relevant to your role</p>
+      </div>
+
+      <div class="resume-grid">
+        <!-- PHP Resume -->
+        <div class="resume-card reveal-left">
+          <div class="resume-card-type">
+            <i class="devicon-php-plain"></i> PHP Backend Engineer Resume
+          </div>
+          <div class="resume-icon">
+            <i class="devicon-laravel-plain" style="color:#f9a8d4;"></i>
+          </div>
+          <h3 class="resume-title">PHP / Laravel Resume</h3>
+          <p class="resume-desc">Focused on PHP 8, Laravel, CodeIgniter, REST API, MySQL/PostgreSQL, RBAC, PHPUnit, and clean architecture patterns.</p>
+          <div class="resume-actions">
+            <a href="assets/resume/venkatesh-php-resume.pdf" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="preview-php-btn">
+              <i class="fa-regular fa-eye"></i> Preview
+            </a>
+            <a href="assets/resume/venkatesh-php-resume.pdf" download="Venkatesh-Mahalingam-PHP-Resume.pdf" class="btn btn-primary btn-sm" id="download-php-btn">
+              <i class="fa-solid fa-download"></i> Download PHP CV
+            </a>
+          </div>
+        </div>
+
+        <!-- Python Resume -->
+        <div class="resume-card reveal-right">
+          <div class="resume-card-type">
+            <i class="devicon-python-plain"></i> Python Backend Engineer Resume
+          </div>
+          <div class="resume-icon" style="background:linear-gradient(135deg,#2563eb,#06b6d4);">
+            <i class="devicon-python-plain" style="color:#fff;"></i>
+          </div>
+          <h3 class="resume-title">Python / Django Resume</h3>
+          <p class="resume-desc">Focused on Python, Django, Django REST Framework, FastAPI, PostgreSQL, Redis, Celery, Pytest, and microservices architecture.</p>
+          <div class="resume-actions">
+            <a href="assets/resume/venkatesh-python-resume.pdf" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="preview-python-btn">
+              <i class="fa-regular fa-eye"></i> Preview
+            </a>
+            <a href="assets/resume/venkatesh-python-resume.pdf" download="Venkatesh-Mahalingam-Python-Resume.pdf" class="btn btn-primary btn-sm" id="download-python-btn" style="background:linear-gradient(135deg,#2563eb,#06b6d4);">
+              <i class="fa-solid fa-download"></i> Download Python CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACT SECTION
+       ══════════════════════════════════════════ -->
+  <section id="contact" class="section" aria-label="Contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-subtitle">Open to senior backend roles, freelance projects, and tech consulting. Let's build something great together.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-info-item reveal-left">
+            <div class="contact-icon">📧</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <a href="mailto:venkatesh.mahalingam@email.com" class="contact-info-value" id="contact-email">venkatesh.mahalingam@email.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item reveal-left" style="transition-delay:0.1s;">
+            <div class="contact-icon">📱</div>
+            <div>
+              <div class="contact-info-label">Phone / WhatsApp</div>
+              <a href="tel:+919XXXXXXXXX" class="contact-info-value" id="contact-phone">+91 9X XXXX XXXX</a>
+            </div>
+          </div>
+          <div class="contact-info-item reveal-left" style="transition-delay:0.2s;">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <span class="contact-info-value">India 🇮🇳 (Open to Remote &amp; Relocation)</span>
+            </div>
+          </div>
+          <div class="contact-info-item reveal-left" style="transition-delay:0.3s;">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <div class="contact-info-label">Availability</div>
+              <span class="contact-info-value" style="color:#34d399;">✅ Available for new opportunities</span>
+            </div>
+          </div>
+
+          <div class="contact-social reveal-left" style="transition-delay:0.4s;">
+            <a href="https://github.com/venkatesh-mahalingam" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/venkatesh-mahalingam" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer" class="contact-social-link" style="border-color:rgba(37,211,102,0.25); color:#34d399;">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+
+          <!-- Map -->
+          <div class="map-embed reveal-left" style="transition-delay:0.5s;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551856.28993682!2d68.1!3d20.5937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+              title="Location map — India"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="reveal-right">
+          <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Your Name *</label>
+                <input type="text" id="contact-name" name="name" class="input-glass" placeholder="John Smith" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email-field">Your Email *</label>
+                <input type="email" id="contact-email-field" name="email" class="input-glass" placeholder="john@company.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subject *</label>
+              <input type="text" id="contact-subject" name="subject" class="input-glass" placeholder="Job Opportunity / Project Inquiry / Consulting" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-budget">Budget / Timeline (Optional)</label>
+              <select id="contact-budget" name="budget" class="input-glass" style="cursor:pointer;">
+                <option value="" style="background:#08080f;">Select budget range...</option>
+                <option value="&lt;5k" style="background:#08080f;">Under $5,000</option>
+                <option value="5k-15k" style="background:#08080f;">$5,000 - $15,000</option>
+                <option value="15k-50k" style="background:#08080f;">$15,000 - $50,000</option>
+                <option value="50k+" style="background:#08080f;">$50,000+</option>
+                <option value="fulltime" style="background:#08080f;">Full-time Employment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Message *</label>
+              <textarea id="contact-message" name="message" class="input-glass" placeholder="Tell me about your project, tech stack requirements, or the role you're hiring for..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="contact-submit-btn">
+              <i class="fa-regular fa-paper-plane"></i>
+              <span id="submit-text">Send Message</span>
+            </button>
+            <div class="form-success" id="form-success" role="alert">
+              <i class="fa-solid fa-circle-check" style="font-size:2rem; margin-bottom:0.75rem;"></i>
+              <h4 style="color:var(--accent-green-light); margin-bottom:0.5rem;">Message Sent! 🎉</h4>
+              <p>Thank you! I'll get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FAQ SECTION
+       ══════════════════════════════════════════ -->
+  <section id="faq" class="section section-alt" aria-label="Frequently Asked Questions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+      </div>
+
+      <div class="faq-list" role="list">
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            Are you available for full-time employment?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes! I am currently open to senior backend engineer positions, preferably focused on PHP/Laravel or Python/Django. I'm available for both on-site (India) and fully remote roles. Feel free to reach out with the role details and I'll get back to you promptly.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            Do you specialize in PHP or Python?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Both! I have 3+ years of professional experience in both PHP (Laravel, CodeIgniter) and Python (Django, FastAPI) ecosystems. I can architect and build production systems in either language. Many of my projects actually use both — e.g., a Laravel API for web with a FastAPI microservice for compute-heavy tasks.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            Do you do frontend development too?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">I'm primarily a backend engineer, but I'm comfortable with frontend technologies including HTML5, CSS3, JavaScript, Bootstrap 5, TailwindCSS, jQuery, and basics of React/Next.js. I can build full-stack applications end-to-end, though my deepest expertise is in backend systems and API design.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            What is your typical project timeline?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Project timelines vary based on complexity. A simple REST API integration takes 1-2 weeks. A full-featured backend system (like a CRM or LMS) typically takes 4-12 weeks. I provide detailed estimates after a discovery call where we discuss requirements, scope, and deliverables.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            How do you ensure code quality?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">I follow SOLID principles, clean architecture patterns, and design patterns (Repository, Service, DTO, Action classes). I write unit and integration tests (PHPUnit/Pest for PHP, Pytest for Python), use static analysis tools (PHPStan, Psalm, mypy), and follow PSR/PEP coding standards. Code is reviewed and documented.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            Can you handle cloud deployment and DevOps?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes! I have hands-on experience with AWS (EC2, S3, RDS, ECS), Docker containerization, CI/CD pipelines with GitHub Actions and Jenkins, Linux server administration, and basic Kubernetes. I can take your application from development to a fully deployed, monitored production environment.</div></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            Do you offer post-delivery support?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes, I offer post-delivery support and maintenance packages. This includes bug fixes, security patches, feature additions, performance monitoring, and technical consulting. Support terms are agreed upon during the project contract phase.</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════ -->
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">V</div>
+            <span>Venkatesh<span style="color:var(--accent-purple-light);">.dev</span></span>
+          </div>
+          <p class="footer-tagline">
+            Senior Backend Engineer specializing in PHP Laravel &amp; Python Django.
+            Building scalable, secure, and high-performance systems.
+          </p>
+          <div class="footer-social">
+            <a href="https://github.com/venkatesh-mahalingam"  target="_blank" rel="noopener" class="footer-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/venkatesh-mahalingam" target="_blank" rel="noopener" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener" class="footer-social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:venkatesh.mahalingam@email.com" class="footer-social-link" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="#about"      class="footer-link">About Me</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#skills"     class="footer-link">Skills</a></li>
+            <li><a href="#tech-stack" class="footer-link">Tech Stack</a></li>
+            <li><a href="#services"   class="footer-link">Services</a></li>
+            <li><a href="#projects"   class="footer-link">Projects</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="#services" class="footer-link">Laravel Development</a></li>
+            <li><a href="#services" class="footer-link">Python / Django Dev</a></li>
+            <li><a href="#services" class="footer-link">FastAPI Development</a></li>
+            <li><a href="#services" class="footer-link">REST API Design</a></li>
+            <li><a href="#services" class="footer-link">Cloud Deployment</a></li>
+            <li><a href="#services" class="footer-link">Consulting</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-links">
+            <li><a href="mailto:venkatesh.mahalingam@email.com" class="footer-link">Send Email</a></li>
+            <li><a href="https://wa.me/919XXXXXXXXX" class="footer-link">WhatsApp Chat</a></li>
+            <li><a href="#resume"  class="footer-link">Download Resume</a></li>
+            <li><a href="#faq"     class="footer-link">FAQ</a></li>
+            <li><a href="php/"     class="footer-link">PHP Version</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          © 2024 <span>Venkatesh Mahalingam</span>. All rights reserved. Built with ❤️ in India 🇮🇳
+        </div>
+        <div class="footer-badges">
+          <span class="footer-badge">PHP</span>
+          <span class="footer-badge">Python</span>
+          <span class="footer-badge">Open to Work</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════
+       FLOATING BUTTONS
+       ══════════════════════════════════════════ -->
+  <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Chat on WhatsApp" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ══════════════════════════════════════════
+       SCRIPTS — CDN Libraries
+       ══════════════════════════════════════════ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- ══════════════════════════════════════════
+       SCRIPTS — Custom
+       ══════════════════════════════════════════ -->
+  <script src="assets/js/cursor.js"     defer></script>
+  <script src="assets/js/three-bg.js"   defer></script>
+  <script src="assets/js/typed-init.js" defer></script>
+  <script src="assets/js/skills.js"     defer></script>
+  <script src="assets/js/projects.js"   defer></script>
+  <script src="assets/js/timeline.js"   defer></script>
+  <script src="assets/js/contact.js"    defer></script>
+  <script src="assets/js/animations.js" defer></script>
+  <script src="assets/js/main.js"       defer></script>
+
+  <!-- Google Analytics (replace G-XXXXXXXXXX with your tracking ID) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+</body>
+</html>
