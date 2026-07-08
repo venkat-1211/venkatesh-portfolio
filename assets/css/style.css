@@ -150,10 +150,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
-h1 { font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 900; }
-h2 { font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 800; }
-h3 { font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 700; }
-h4 { font-size: 1.25rem; font-weight: 600; }
+h1 { font-size: clamp(2rem, 7vw, 5rem); font-weight: 900; }
+h2 { font-size: clamp(1.6rem, 4vw, 3rem); font-weight: 800; }
+h3 { font-size: clamp(1.1rem, 2.5vw, 1.75rem); font-weight: 700; }
+h4 { font-size: clamp(1rem, 2vw, 1.25rem); font-weight: 600; }
 
 p { color: var(--text-secondary); line-height: 1.75; }
 
@@ -170,12 +170,13 @@ code, pre {
 .container {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 clamp(1rem, 4vw, 2rem);
   width: 100%;
+  box-sizing: border-box;
 }
 
 .section {
-  padding: var(--section-py) 0;
+  padding: clamp(3.5rem, 8vw, 6.25rem) 0;
   position: relative;
   overflow: hidden;
 }
@@ -671,12 +672,14 @@ code, pre {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-size: clamp(2rem, 7vw, 5.5rem);
   font-weight: 900;
   letter-spacing: -0.04em;
   line-height: 1.05;
   margin-bottom: 1rem;
   animation: heroTitleReveal 0.9s cubic-bezier(0.22,1,0.36,1) 0.3s both;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-name {
@@ -817,7 +820,7 @@ code, pre {
   animation: scrollIndicatorFade 1.5s ease infinite;
 }
 
-/* Hero stats strip */
+/* Hero stats strip — desktop: absolute positioned; mobile: in flow (responsive.css handles this) */
 .hero-stats-strip {
   position: absolute;
   bottom: 2.5rem;
@@ -852,14 +855,14 @@ code, pre {
    ══════════════════════════════════════════ */
 .about-grid {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 5rem;
+  grid-template-columns: clamp(220px, 25%, 300px) 1fr;
+  gap: clamp(2rem, 5vw, 5rem);
   align-items: center;
 }
 
 .about-image-wrap {
-  width: 280px;
-  height: 280px;
+  width: clamp(180px, 22vw, 280px);
+  height: clamp(180px, 22vw, 280px);
   border-radius: 50%;
   position: relative;
   margin: 0 auto;
@@ -957,7 +960,7 @@ code, pre {
 .about-stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: clamp(0.5rem, 1.5vw, 1rem);
   margin-bottom: 2rem;
 }
 
@@ -1336,8 +1339,8 @@ code, pre {
    ══════════════════════════════════════════ */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 /* ══════════════════════════════════════════
@@ -1372,8 +1375,8 @@ code, pre {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .project-card-img-wrap {
@@ -1591,8 +1594,8 @@ code, pre {
    ══════════════════════════════════════════ */
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 45%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .stat-number {
@@ -1624,8 +1627,8 @@ code, pre {
    ══════════════════════════════════════════ */
 .certs-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .cert-card {
@@ -1681,8 +1684,8 @@ code, pre {
    ══════════════════════════════════════════ */
 .github-stats-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
   margin-bottom: 2.5rem;
 }
 
@@ -1697,8 +1700,8 @@ code, pre {
    ══════════════════════════════════════════ */
 .resume-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: clamp(1.25rem, 3vw, 2rem);
 }
 
 .resume-card {
@@ -1781,7 +1784,7 @@ code, pre {
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  gap: 4rem;
+  gap: clamp(2rem, 5vw, 4rem);
 }
 
 .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
@@ -1868,7 +1871,7 @@ code, pre {
 /* Contact Form */
 .contact-form { display: flex; flex-direction: column; gap: 1.25rem; }
 
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(0.75rem, 2vw, 1.25rem); }
 
 .form-group { display: flex; flex-direction: column; gap: 0.5rem; }
 
@@ -2028,8 +2031,8 @@ textarea.input-glass {
    ══════════════════════════════════════════ */
 .process-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
   position: relative;
 }
 
@@ -2111,8 +2114,8 @@ footer::before {
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 4rem;
-  margin-bottom: 4rem;
+  gap: clamp(2rem, 5vw, 4rem);
+  margin-bottom: clamp(2rem, 5vw, 4rem);
 }
 
 .footer-brand { }
@@ -2289,8 +2292,8 @@ footer::before {
 /* Open Source Section */
 .opensource-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .os-card {
